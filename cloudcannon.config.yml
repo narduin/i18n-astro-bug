@@ -66,4 +66,8 @@ _enabled_editors:
   - content
   - data
   - visual
+data_config:
+  content:
+    path: posts
+    parser:
 timezone: Europe/Brussels
