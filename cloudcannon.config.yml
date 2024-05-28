@@ -1,0 +1,69 @@
+source: src/
+paths:
+  uploads: uploads
+  static: ''
+  collections: ''
+  data: ''
+  layouts:
+collections_config:
+  posts:
+    path: posts
+    output: true
+    url: /blog/posts
+    filter:
+      base:
+      include:
+      exclude:
+    parse_branch_index:
+    name: Posts
+    description: Articles of the blog
+    icon: notes
+    documentation:
+    preview:
+    sort:
+    sort_options:
+    singular_name: post
+    singular_key:
+    _editables:
+      text:
+        allow_custom_markup: true
+        remove_custom_markup: false
+        bold: true
+        copyformatting:
+        italic:
+        link: true
+        paths:
+          uploads: /public/images
+          uploads_filename:
+          uploads_use_relative_path:
+          static:
+          dam_uploads:
+          dam_uploads_filename:
+          dam_static:
+        redo: true
+        removeformat: true
+        strike:
+        subscript:
+        superscript:
+        underline:
+        undo: true
+    _enabled_editors:
+      - content
+      - data
+      - visual
+    _inputs:
+    _select_data:
+    _structures:
+    add_options:
+    create:
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
+    new_preview_url:
+    schemas:
+    schema_key:
+_enabled_editors:
+  - content
+  - data
+  - visual
+timezone: Europe/Brussels
